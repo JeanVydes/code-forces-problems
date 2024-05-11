@@ -3,6 +3,7 @@
 use std::io::{self, prelude::*};
  
 fn solve<R: BufRead, W: Write>(mut input: FastInput<R>, mut w: W) {
+    let n: usize = input.token();
     
 }
  
